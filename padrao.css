@@ -1,0 +1,71 @@
+*, html {
+	margin: 0;
+	padding: 0;
+}
+
+.fundo {
+	background: url("imagens/bolafundo1.png") no-repeat 200px 300px, 
+				url("imagens/bolafundo2.png") no-repeat 1000px 300px, 
+				linear-gradient(to bottom, #00c3d1 0%,#005cd1 100%);
+	position: relative;
+	height: 600px
+}
+
+.logo {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+.bolaRoxa {
+	width: 282px;
+	height: 249px;
+	background-image: url("imagens/bolaroxa.png");
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	right: 0;
+	top: 0;
+}
+
+.bolaRoxa ul {
+	position: absolute;
+	display: flex;
+	list-style: none;
+	top: 20px;
+	right: 40px;
+}
+
+.bolaRoxa ul li {
+	margin-left: 20px;
+}
+
+.mao {
+	position: absolute;
+	bottom: 0;
+	left: 20%;
+	width: 320px
+}
+
+.texto {
+	position: absolute;
+	left: 50%;
+	width: 400px;
+	bottom: 180px;
+	color: #fff;
+	font-family: Arial;
+}
+
+.fundo .texto h1 {
+	font-size: 60px;
+	margin-top: 0;
+}
+
+.bolaAzul {
+	width: 194px;
+	height: 400px;
+	background: url("imagens/bolaazul.png") no-repeat;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
